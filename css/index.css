@@ -187,3 +187,7 @@ h1 {
 .hallo {
   font-size: 20px;
 }
+
+.down {
+  display: block;
+}
