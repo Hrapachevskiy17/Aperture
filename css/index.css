@@ -191,3 +191,7 @@ h1 {
 .down {
   display: block;
 }
+.sad {
+  display: flex;
+  margin: auto;
+}
