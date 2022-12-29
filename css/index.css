@@ -100,6 +100,87 @@ h1 {
   color: #c0c0c0;
 }
 
+
+/* What we do. */
+.what_we_do {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.what_we_do .container {
+  max-width: 1168px;
+}
+
+.what_we_do h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;  
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what_we_do h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;  
+    text-align: center;
+    margin-bottom: 42px;
+    color: #C0C0C0;
+}
+
+.d_flex_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.what_we_do .d_flex_container article{
+  max-width: 576px;
+  position: relative;
+  max-height: 600px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.what_we_do .d_flex_container article img {
+  display: block;
+  width: 100%;
+}
+.what_we_do .d_flex_container article .description {
+  position: absolute;
+  width: 100%;
+  bottom: 0;  
+  padding: 30px 45px 30px 30px;
+  box-sizing: border-box;
+}
+
+.what_we_do .description h4 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+
+.what_we_do .description p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+text-align: left;
+margin-bottom: 20px;
+}
+
 /* past */
 .past {
   padding: 120px 0;
@@ -178,24 +259,4 @@ h1 {
   background-color: rgb(0, 0, 0);
   border-radius: 50px;
   margin-right: 6px;
-}
-
-.qwe {
-  display: block;
-}
-
-.hallo {
-  font-size: 20px;
-}
-
-.down {
-  display: block;
-}
-.sad {
-  display: flex;
-  margin: auto;
-}
-
-.sas {
-  display: flex;
 }
