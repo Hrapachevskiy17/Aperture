@@ -181,6 +181,59 @@ text-align: left;
 margin-bottom: 20px;
 }
 
+
+/* sunset */
+.sunset {
+  max-width: 1700px;
+  display: flex;
+  padding-right: 119px;
+  background-size: 100%;
+  height: 600px;
+  background-image: url(../images/banner2.png);
+  justify-content: flex-end;
+  align-items: center;
+}
+.sunset_text {
+  max-width: 298px;
+}
+.sunset_text  h5 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.sunset_text p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+}
+/* we_use */
+.we_use {
+  max-width: 1600px;
+  background-color: gray;
+  height: 600px;
+}
+
+
+/* Monstera */
+.monstera {
+  max-width: 1700px;
+  display: flex;
+  padding-right: 87px;
+  background-size: 100%;
+  height: 600px;
+  background-image: url(../images/banner3.png);
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* past */
 .past {
   padding: 120px 0;
@@ -211,6 +264,18 @@ margin-bottom: 20px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+
+/* star */
+.star {
+  max-width: 1700px;
+  display: flex;
+  padding-right: 62px;
+  background-size: 100%;
+  height: 600px;
+  background-image: url(../images/banner4.png);
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Help */
@@ -259,4 +324,134 @@ margin-bottom: 20px;
   background-color: rgb(0, 0, 0);
   border-radius: 50px;
   margin-right: 6px;
+}
+
+footer {
+  padding: 100px 136px;
+  background-color: #000;
+
+}
+.content_foot {
+  max-width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px #fff solid;
+  margin-bottom: 36px;
+}
+.footer_logo img{
+  margin-bottom: 20px;
+}
+.footer_logo p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 410px;
+  margin-bottom: 36px;
+
+
+}
+.content_foot h6 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+margin-bottom: 10px;
+}
+.list li {
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.list a {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+border: none;
+text-decoration: none;
+}
+.subscribe {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px #fff solid;
+  padding-bottom: 36px;
+  margin-bottom: 56px;
+}
+.subscribe h6{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.subscribe p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.subscribe form {
+  max-width: 458px;
+  height: 52px; 
+  background: #F9FAFB;
+border: 1px solid #E5E7EB;
+border-radius: 12px;
+display: flex;
+justify-content: space-between;
+}
+.subscribe input {
+  width: 458px;
+  height: 52px;
+  width: 70%;
+  border: none;
+  background-color: none;
+
+}
+.subscribe button {
+  width: 25%;
+  
+
+}
+.social {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.social h6 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+.social ul {
+  display: block;
+}
+.social li {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
 }
