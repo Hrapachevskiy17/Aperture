@@ -230,6 +230,7 @@ margin-bottom: 20px;
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  background-size: cover;
 }
 .sunset_text {
   max-width: 298px;
@@ -304,6 +305,7 @@ margin-bottom: 20px;
   top: 0;
   width: 50%;
   height: 100%;
+  background-size: cover;
 }
 
 
@@ -317,6 +319,7 @@ margin-bottom: 20px;
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  background-size: cover;
 }
 
 /* past */
@@ -360,6 +363,7 @@ margin-bottom: 20px;
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  background-size: cover;
 }
 
 /* Help */
