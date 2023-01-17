@@ -520,6 +520,7 @@ text-decoration: none;
   border-bottom: solid 2px #FFF;
   padding: 36px 0;
   margin-bottom: 56px;
+  margin: auto;
 }
 .subscribe div{
   padding-right: 36px;

@@ -46,11 +46,30 @@
         align-items: center;
     }
     .first_column p {
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
     }
     .list {
-        margin: auto;
+        column-gap: 30px;
+    }
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+    }
+    .subscribe form {
+        align-self: center;
+        width: 90%;
+    }
+    .footer_icons {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer_icons p {
+        order: 2;
+    }
+    .footer_icons ul {
+        margin: 20px 0 25px 0;
     }
 }
 @media only screen and (max-width: 580px){
@@ -60,7 +79,5 @@
     .need_help h4 {
         font-size: 15px;
     }
-}
-@media only screen and (max-width: px){
-    
+
 }
