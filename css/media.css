@@ -1,12 +1,21 @@
 @media only screen and (max-width: 1152px){
     .d_flex_container {
-        justify-content: space-around;
+        margin: auto;
+        display: block;
     }
     .past .icons {
         flex-wrap: wrap;
         justify-content: center;
         gap: 40px;
     }
+    .we_use .container{
+        display: flex;
+        justify-content: center;
+    }
+    .we_use .banner_we_use {
+        display: none;
+    }
+
 }
 @media only screen and (max-width: 768px){
     header a {
@@ -53,5 +62,5 @@
     }
 }
 @media only screen and (max-width: px){
-
+    
 }

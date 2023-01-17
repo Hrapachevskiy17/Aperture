@@ -148,6 +148,8 @@ list-style: none;
 
 .what_we_do .container {
   max-width: 1168px;
+  margin: auto;
+  display: block;
 }
 
 .what_we_do h2 {
