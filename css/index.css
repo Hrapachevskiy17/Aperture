@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -55,6 +56,79 @@ header nav li:last-of-type a {
   border-radius: 14px;
   padding: 11px 20px;
 }
+.ui-dialog {
+  width: 100% !important;
+  max-width: 400px !important;
+  height: 200px;
+}
+.ui-widget-header{
+  border: none;
+
+}
+.ui-button .ui-icon {
+  font-weight:900;
+  font-family: "Font Awesome 6 Free";
+  content: "\f410";
+}
+.ui-dialog h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.ui-dialog p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.form_help form {
+  resize: none;
+}
+.form_help label{
+  margin-right: 6px;
+  font-size: 20px;
+}
+.form_help input{
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: #000;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  
+}
+.form_help {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+.form_help button {
+  margin: auto;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  width: 62px;
+  font-size: 19px;
+  background-color: #000;
+  color: #FFFFFF;
+  height: 39px;
+  border-radius: 33%;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  
+}
+.form_help button:hover {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(57, 242, 0);
+  border: none;
+  color: #000;
+  font-size: 19px;
+}
+
 
 /* main_banner */
 .main_banner {

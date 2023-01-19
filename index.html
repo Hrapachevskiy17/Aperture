@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//resources/demos/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/index.css">
     
@@ -17,6 +19,18 @@
 </head>
 <body>
     <header>
+        <div id="dialog" title="Yoy need help?">
+            <h3>With photography or videography:</h3>
+            <p>Write your mail and we will contact you!</p>
+            <div class="form_help">
+                <form action="#" method="post">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <button type="submit">Send</button>
+            </form>
+            </div>
+            
+        </div>
         <div class="container">
             <a href="#">
                 <img src="images/logo.svg" alt="logo">
@@ -36,7 +50,7 @@
                         <a href="#">Contact</a>
                     </li>
                     <li>
-                        <a href="">Get template</a>
+                        <a href="#" id="opener" >Get template</a>
                     </li>
             </ul>
         </nav>
@@ -251,9 +265,11 @@
             </div>
         </div>
     </footer>
+    <i class="fa-solid fa-rectangle-xmark"></i>
     <script src="https://kit.fontawesome.com/a2651c069f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
