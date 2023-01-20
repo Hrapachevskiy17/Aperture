@@ -59,49 +59,58 @@ header nav li:last-of-type a {
 .ui-dialog {
   width: 100% !important;
   max-width: 400px !important;
-  height: 200px;
+  background-image: url(../images/banner4.png);
+  padding: 0;
+  width: 100%;
+}
+.ui-widget {
+  border-radius: 20px;
+  background-color: transparent;
 }
 .ui-widget-header{
+  font-family: "Poppins", sans-serif;
   border: none;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 50px;
 
 }
-.ui-button .ui-icon {
-  font-weight:900;
-  font-family: "Font Awesome 6 Free";
-  content: "\f410";
+.ui-button .ui-icon{
+  background-image: none;
 }
 .ui-dialog h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15px;
+  color: #FFF;
 }
 .ui-dialog p {
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-bottom: 6px;
-}
-.form_help form {
-  resize: none;
+  color: #F9FAFB;
 }
 .form_help label{
   margin-right: 6px;
   font-size: 20px;
+  color: #FFF;
 }
 .form_help input{
   font-size: 18px;
   width: 80%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid #000;
-  background-color: #000;
-  color: #FFFFFF;
+  background-color: #fff;
+  color: #000;
   border-radius: 50px;
-  padding-left: 20px;
+  padding-left: 15px;
   padding-top: 4px;
   padding-bottom: 4px;
   
 }
 .form_help {
+  font-family: "Poppins", sans-serif;
   max-width: 400px;
   display: block;
   margin: auto;
@@ -114,8 +123,8 @@ header nav li:last-of-type a {
   font-size: 19px;
   background-color: #000;
   color: #FFFFFF;
-  height: 39px;
-  border-radius: 33%;
+  height: 32px;
+  border-radius: 100px;
   border: none;
   position: relative;
   cursor: pointer;
@@ -123,7 +132,7 @@ header nav li:last-of-type a {
 }
 .form_help button:hover {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(57, 242, 0);
+  background-color: white;
   border: none;
   color: #000;
   font-size: 19px;
