@@ -43,6 +43,9 @@
         width: 100%;
         text-align: center;
     }
+    .nav__list{
+        display: block;
+    }
     .nav__list-item a:after{ 
         position: absolute;
         content: '';
@@ -150,6 +153,9 @@
     }
 }
 @media only screen and (max-width: 580px){
+    .switch-wrap h1 {
+        font-size: 32px;
+    }
     .need_help h3 {
         font-size: 19px;
     }
